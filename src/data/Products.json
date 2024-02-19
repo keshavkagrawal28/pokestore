@@ -1,0 +1,15 @@
+// dataset will contain around 100 items
+[
+  {
+    "id": "",
+    "name": "",
+    "description": "",
+    "price": "",
+    "category": "",
+    "rating": "",
+    "images": "",
+    "attributes": [],
+    "effects": [],
+    "reviews": []
+  }
+]

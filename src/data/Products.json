@@ -1,15 +1,1091 @@
-// dataset will contain around 100 items
 [
   {
-    "id": "",
-    "name": "",
-    "description": "",
-    "price": "",
-    "category": "",
-    "rating": "",
+    "id": "1",
+    "name": "Cherish Ball",
+    "description": "The Cherish Ball is a rare Poké Ball only able to be obtained through receiving a Pokémon through means of an Event. As such, this Poké Ball can never be used to catch a Pokémon unless through a cheating device, such as Action Replay. A Cherish Ball can also come with a Pokémon over Wi-Fi in Pokémon Black and White.",
+    "additionalData": {
+      "Appearance": [
+        "Red Poké Ball with a wide black band around the middle and red button."
+      ],
+      "Trivia": [
+        "This is the first Poké Ball to have a much less circular shape than the rest.",
+        "When used in the wild, it has the catch rate of a standard Poké Ball."
+      ],
+      "Locations": {
+        "Generation IV - VIII": [
+          "Cherish Balls are unobtainable. However, Pokémon received by events are found in Cherish Balls instead of Poké Balls."
+        ]
+      }
+    },
+    "price": 5000,
+    "totalRatings": 9,
+    "category": "Unique or Event Balls",
     "images": "",
-    "attributes": [],
-    "effects": [],
+    "reviews": [
+      {
+        "title": "Quick and Easy",
+        "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Dive Ball",
+    "description": "The Dive Ball is used for catching Pokémon found on the sea floor. It is best used on or under water; it has a capture rate of 75% for Pokémon seen on the sea floor. As of Generation IV, the Dive Ball is more effective on Pokémon found while surfing. This is because there are no underwater areas in the Sinnoh region.",
+    "additionalData": {
+      "Appearance": [
+        "The entire ball is various shades blue except for the black horizontal band around the middle, and a white cap on the top of the ball in which the blue forms a gentle wave pattern around."
+      ],
+      "Locations": {
+        "Generation III": [
+          "Ruby, Sapphire & Emerald: In Mossdeep City's Poké Mart."
+        ],
+        "Generation IV": [
+          "Diamond, Pearl & Platinum: Pokémon News Press",
+          "HeartGold & SoulSilver: With the Pokéwalker; Beautiful Beach (5000+ Steps), Blue Lake (3500+ Steps)"
+        ],
+        "Generation V": ["Black & White: Undella Town Poké Mart."],
+        "Generation VI": ["Omega Ruby and Alpha Sapphire: Sea Mauville"],
+        "Generation VII": [
+          "From Lana after completing her trial in Brooklet Hill.",
+          "In the Pokemon Center on Route 9."
+        ]
+      }
+    },
+    "price": 3500,
+    "totalRatings": 16,
+    "category": "Specialized Capture Balls",
+    "images": "",
     "reviews": []
+  },
+  {
+    "id": "3",
+    "name": "Dream Ball",
+    "description": "The Dream Ball is a Poké Ball introduced in Generation V. Prior to Generation VIII, it was only usable within the Dream World and Pokémon from the Dream Radar.",
+    "additionalData": {
+      "Appearance": [
+        "The appearance of the Dream Ball is similar to that of Musharna. It has a pink and dark pink pattern on top of the capsule and a misty purple and white on the bottom half of the capsule."
+      ],
+      "Catch Rate": {
+        "Generation V": [
+          "Like the Master Ball and Park Ball, it never fails to catch a Pokémon. It can only be used in the Entree Forest in the Entralink. Its distinctive pattern marks that the Pokémon within was caught in the Dream World, not in the wild. Unlike the Park Ball and Master Ball, if the Dream Ball is somehow used in the wild it will fail."
+        ],
+        "Generation VIII": [
+          "When used on a sleeping Pokémon, it has a catch rate modifier of x4. Otherwise, it has a catch rate modifier of x1."
+        ]
+      }
+    },
+    "price": "",
+    "totalRatings": 7,
+    "category": "Unique or Event Balls",
+    "images": 3000,
+    "reviews": [
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      },
+      {
+        "title": "An Unpleasant Surprise",
+        "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Fast Ball",
+    "description": "Fast Ball used to catch Pokémon which run away quickly and easily such as Pokémon with the Run Away ability or Legendary Pokémon like Raikou and Entei.",
+    "additionalData": {
+      "Appearance": [
+        "It is characterized by yellow half-circles on the sides of both the top and bottom halves, with the top half being primarily red and carrying a lightning-bolt yellow mark on the very top."
+      ],
+      "Trivia": [
+        "The Fast Ball is similar the Quick Ball, due the fact they are both useful in catching Pokémon that flee easily or hard to capture, due to having escape moves like Teleport, Roar, and Whirlwind.",
+        "A programming error in Generation II results in the ball only being effective at catching the first three Pokémon in the table for Pokémon that have a 10% chance of fleeing (Magnemite, Tangela, and Grimer), making it practically useless."
+      ]
+    },
+    "price": "",
+    "totalRatings": 6,
+    "category": "Specialized Capture Balls",
+    "images": 2000,
+    "reviews": [
+      {
+        "title": "A Comprehensive Tool for Trainers",
+        "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
+        "rating": 4.5
+      },
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      },
+      {
+        "title": "Reliable and Effective",
+        "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Friend Ball",
+    "description": "The Friend Ball is a Poké Ball introduced in Generation II. It is used to catch Pokémon as effective as a standard Poké Ball. However, Pokémon captured by this ball will have their friendship set to 200 automatically.",
+    "additionalData": {
+      "Appearance": [
+        "This ball has a green top decorated with four red dots slanting toward the center button on both sides of the vertical mid-line on the top half and a gold dot near the top part of the ball's top half as seen from the front."
+      ]
+    },
+    "price": 1000,
+    "totalRatings": 16,
+    "category": "Friendship and Affection Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Solid Choice",
+        "description": "Good ball, caught Pokémon without any major issues.",
+        "rating": 4
+      },
+      {
+        "title": "Reliable and Effective",
+        "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Great Ball",
+    "description": "The Great Ball is a sphere. The top is blue with two red accents and the bottom is white. The band is black and the button is white or light gray. It has a slight resemblance to the Lure Ball.",
+    "additionalData": {
+      "Locations": {
+        "Generation I": [
+          "In Pokémon Red, Blue, and Yellow, Great Balls can be found in Lavender Town, Celadon City, Saffron City, Fuchsia City, Cinnabar Island, and at Indigo Plateau Poké Marts."
+        ],
+        "Generation II": [
+          "In Pokémon Gold, Silver, and Crystal, Great Balls can be found in Goldenrod City, Ecruteak City, Olivine City, Mahogany Town, Blackthorn City, Indigo Plateau, Pewter City, Cerulean City, Lavender Town, Saffron City, Celadon City, and Fuchsia City."
+        ],
+        "Generation III": [
+          "In Pokémon Ruby, Sapphire, and Emerald, Great Balls can be found in Petalburg City (after acquiring 4 badges), Slateport City, Mauville City, Verdanturf Town, Fallarbow Town, Lavaridge Town, Fortree City, and Lilycove City Poké Marts.",
+          "In Pokémon FireRed and LeafGreen, like in the original games, Great Balls can be found in Lavender Town, Celadon City, Saffron City, Fuchsia City, Cinnabar Island, and Indigo Plateau. In the Sevii Islands, Great Balls can be obtained at Four Island, Six Island, and Seven Island."
+        ],
+        "Generation IV": [
+          "In Pokémon Diamond, Pearl, and Platinum, Great Balls can be found in all Poké Marts after earning three Badges.",
+          "Also, in Pokémon HeartGold and SoulSilver, Great Balls can be found in all Poké Marts after earning three Badges, as well as Join Avenue."
+        ],
+        "Generation V": [
+          "In Pokémon, Black, White, Black 2, and White 2, Great Balls can be found in all Poké Marts after earning one Badge."
+        ],
+        "Generation VI": [
+          "In Pokémon X, Y, Omega Ruby, and Alpha Sapphire, Great Balls can be found in all Poké Marts after earning one Badge."
+        ],
+        "Generation VII": [
+          "In Pokémon Sun and Pokémon Moon, Great Balls can be found in all Poké Marts after completing one trial."
+        ]
+      }
+    },
+    "price": 5000,
+    "totalRatings": 14,
+    "category": "Basic Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Solid Choice",
+        "description": "Good ball, caught Pokémon without any major issues.",
+        "rating": 4
+      },
+      {
+        "title": "Middle of the Road",
+        "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
+        "rating": 3
+      },
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "GS Ball",
+    "description": "The GS Ball is a mysterious Poké Ball introduced in Crystal.",
+    "additionalData": {
+      "Usage": [
+        "Once this Poké Ball is taken to the shrine in Ilex Forest in the Johto region, Celebi will appear in front of the player and challenge them."
+      ],
+      "Trivia": "According to Masamitsu Hidaka, the GS Ball stood for Gold/Silver Ball and was supposed to contain Celebi. It was intended to follow Ash Ketchum around in the Gold/Silver series. However, it was decided at the last minute to save Celebi for the movie Pokémon 4Ever, and the GS Ball was dropped from the anime with no explanation."
+    },
+    "price": 2500,
+    "totalRatings": 13,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Heavy Ball",
+    "description": "The Heavy Ball is one of the many Poké Balls featured in the Gold and Silver games. It can catch large and heavy Pokémon such as Snorlax better than a standard Poké Ball.",
+    "additionalData": {
+      "Appearance": [
+        "It has a dark blue top with lighter blue circles on either side at an angle from the central button, the top most of which is the largest and the lower-most of which are tiny and almost the same shade of blue as the majority of the top."
+      ],
+      "Locations": {
+        "Generation II": [
+          "Gold, Silver & Crystal: the Heavy Ball can be crafted by Kurt in Azalea Town."
+        ],
+        "Generation VIII": [
+          "In Pokémon Legends: Arceus, the Heavy Ball can be purchased via the Galaxy Member in certain camps depending on the player's Star rating, can be given by NPCs as rewards for completing certain Requests, or crafted via collecting Materials available in regions with Wild Pokemon. In comparison to the Poké Ball, the Heavy Ball has a shorter throwing distance but has a slightly increased catch-rate when used outside battle depending on the Wild Pokémon's activity."
+        ]
+      },
+      "Catch Rate": [
+        "The catch rate of the Heavy Ball depends on the weight of the Pokémon:",
+        "-20 pts wild Pokémon weighing less than 451.5 lbs",
+        "+20 pts wild Pokémon weighing between 451.5 lbs and 677.3 lbs",
+        "+30 pts wild Pokémon weighing between 677.3 lbs and 903.0 lbs",
+        "+40 pts wild Pokémon weighing more than 903.0 lbs"
+      ]
+    },
+    "price": 3500,
+    "totalRatings": 20,
+    "category": "Weight-Dependent Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Disappointing Results",
+        "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Koraidon's Poké Ball",
+    "description": "Koraidon's Poké Ball is a key item introduced in Generation IX.",
+    "additionalData": {
+      "Effects": [
+        "This Poké Ball stores Koraidon in the player's party. The player can use Koraidon only for riding for most of the game, but will be able to use it for battle after the battle against the Paradise Protection Protocol."
+      ]
+    },
+    "price": 1200,
+    "totalRatings": 16,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Reliable and Effective",
+        "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
+        "rating": 4
+      },
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Level Ball",
+    "description": "The Level Ball is a Poké Ball used to catch Pokémon that are at a lower level.",
+    "additionalData": {
+      "Catch Rate": [
+        "The catch rate of the Level Ball depends on the Pokémon. Here are the rates:",
+        "8x if the player's Pokémon is of a level 4 times greater than that of the wild Pokémon.",
+        "4x if the player's Pokémon is more than 2 or less the 4 times the level of the wild Pokémon.",
+        "2x if the player's Pokémon is at a higher level than the wild Pokémon, but less than double the Pokémon's level.",
+        "1x if the player's Pokémon is an equal level as or less the wild Pokémon."
+      ]
+    },
+    "price": 2000,
+    "totalRatings": 22,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      },
+      {
+        "title": "An Unpleasant Surprise",
+        "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
+        "rating": 2
+      },
+      {
+        "title": "Reliable and Effective",
+        "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Love Ball",
+    "description": "The Love Ball is a type of a Poké Ball.",
+    "additionalData": {
+      "Appearance": [
+        "The Love Ball is characterized by a pink top with a white heart going up the middle."
+      ],
+      "Locations": {
+        "Generation II": [
+          "Gold, Silver & Crystal: the Love Ball can be crafted by Kurt in Azalea Town."
+        ],
+        "Generation IV": [
+          "HeartGold, SoulSilver: the Love Ball can be received from Kurt in Azalea Town in exchange for Apricorn."
+        ],
+        "Generation VII": [
+          "Sun, Moon: the Love Ball can be bought in Malie City.",
+          "Ultra Sun, Ultra Moon: the Love Ball can be bought in Heahea City"
+        ]
+      },
+      "Trivia": [
+        "The Love Ball can be used on a Pokémon of the same species and opposite gender as the player character's Pokémon. If these statistics are followed, then the Ball is known to be x8 more effective in catching the wild Pokémon than would a regular Poké Ball. If the wild Pokémon is of a different species, or if either Pokémon is genderless, then the Love Ball has x1 effectiveness.",
+        "In Generation II, the Love Ball is incorrectly programmed to have an increased catch rate for Pokémon of the same gender as the player's Pokémon rather than the opposite gender."
+      ]
+    },
+    "price": 5000,
+    "totalRatings": 8,
+    "category": "Friendship and Affection Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "A Comprehensive Tool for Trainers",
+        "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
+        "rating": 4.5
+      },
+      {
+        "title": "An Unpleasant Surprise",
+        "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Lure Ball",
+    "description": "The Lure Ball is used to catch Pokémon found via fishing and carries a 50% higher rate of capture than a normal Poké Ball for this purpose.",
+    "additionalData": {
+      "Appearance": [
+        "It is characterized by a blue top with a red V going up the middle which is decorated by three, vertical, yellow lines."
+      ],
+      "Locations": {
+        "Generation II": [
+          "Gold, Silver & Crystal: the Lure Ball can be crafted by Kurt in Azalea Town."
+        ]
+      },
+      "Catch Rate": [
+        "If the player character is fishing, the Lure Ball has 3 times more effectiveness to catch a Pokémon. Otherwise, the catch rate is x1."
+      ]
+    },
+    "price": 3500,
+    "totalRatings": 17,
+    "category": "Environment-Dependent Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Quick and Easy",
+        "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
+        "rating": 4.5
+      },
+      {
+        "title": "Disappointing Results",
+        "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Luxury Ball",
+    "description": "The Luxury Ball  is used for catching Pokémon and is the fanciest of Poké Balls made so far, along with it being the most expensive of them all. It is designed for luxury as its name suggests. While it is the same as a normal Poké Ball in terms of success rates in general, a Pokémon caught in this ball will form a bond with its trainer more quickly.",
+    "additionalData": {
+      "Appearance": [
+        "The Luxury Ball is almost entirely black with a gold band around the middle as well as a gold button, and carries rings of red on both halves which themselves are flanked by rings of gold."
+      ],
+      "Locations": {
+        "Generation III": [
+          "Can only be found on the abandoned ship on Route 108"
+        ],
+        "Generation V": ["Purchase it from Frederic on Black City"]
+      },
+      "Trivia": [
+        "Due to the Luxury Balls high cost and reputation as being more comfortable than other Poké Ball, it was likely originally designed for celebrities, the very rich, and wealthy Trainers.",
+        "Its function is similar to the Friend Ball, as both affect the friendship of the captured Pokémon. Also like the Friend Ball, the Luxury Ball is useful in evolving Pokémon who require high friendship in order to evolve."
+      ]
+    },
+    "price": 2500,
+    "totalRatings": 20,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Quick and Easy",
+        "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
+        "rating": 4.5
+      },
+      {
+        "title": "Middle of the Road",
+        "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
+        "rating": 3
+      },
+      {
+        "title": "Not Worth It",
+        "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
+        "rating": 1.5
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Master Ball",
+    "description": "The Master Ball is the rarest and most powerful Ball available in all games. It was originally manufactured by Silph Co. in Saffron City, but only a few were produced, as Team Rocket hijacked the building and attempted to steal them. Due to this, the Master Ball as a whole was discontinued. Only one can be found during the course of the story in every game. However, starting from Generation II, additional Master Balls can be won, albeit very rarely, from the in-game Lottery if the player character has the exact number. More can also be gained by trading a Pokémon holding a Master Ball from another game. It is possible to get up to 450 Master Balls without using a cheating device.",
+    "additionalData": {
+      "Appearance": [
+        "It has a two-shade purple top forming two brighter purple circles on the sides of the top, as well as a white letter M printed on the top. The Master Ball is guaranteed to capture any wild Pokémon without fail, completely ignoring the capture system as a whole. Players should be careful about using the Master Ball, as in most scenarios, there will only be 1 Master Ball at the player's disposal."
+      ],
+      "Locations": {
+        "Generation I": [
+          "Red, Blue, and Yellow: Given by the CEO of Silph Co. after defeating Giovanni in Saffron City."
+        ],
+        "Generation II": [
+          "Gold and Silver: Given by Professor Elm after getting the Dragon Fang from the Dragon's Den.",
+          "Crystal: Given by Professor Elm after answering the Elder's test at the Dragon's Den."
+        ],
+        "Generation III": [
+          "Ruby, Sapphire and Emerald: Found in a room of the Magma Hideout (Ruby) and Aqua Hideout (Sapphire and Emerald) between 2 Electrode and a Nugget*.",
+          "FireRed and LeafGreen: Given by the CEO of Silph Co. after defeating Giovanni in Saffron City."
+        ],
+        "Generation IV": [
+          "Diamond, Pearl and Platinum: Given by Cyrus after defeating him at Team Galactic's HQ.",
+          "HeartGold and SoulSilver: Given by Professor Elm after answering the Elder's test at the Dragon's Den."
+        ],
+        "Generation V": [
+          "Black and White: Given by Professor Juniper after defeating Iris and Drayden in Opelucid City; Trade 50 Pokémon through the GTS.",
+          "Black 2 and White 2: Given by Professor Juniper in Mistralton City; Defeat Colress on the Plasma Frigate after defeating the Elite Four; can be won from Join Avenue's Raffle Shops."
+        ],
+        "Generation VI": [
+          "X and Y: Reward by the manager of the Poké Ball Factory after defeating a Team Flare Grunt and Mable.",
+          "Omega Ruby and Alpha Sapphire: Found in a room of the Magma Hideout (Omega Ruby) or Aqua Hideout (Alpha Sapphire) between 2 Electrode as fake items and a Nugget.*"
+        ],
+        "Generation VII": [
+          "Sun, Moon, Ultra Sun and Ultra Moon: Given by Gladion after storming Aether Paradise.",
+          "Let's Go, Pikachu! and Let's Go, Eevee!: Given by president after defeating Giovanni in Silph Co."
+        ],
+        "Generation VIII": [
+          "Sword and Shield: Given by Professor Magnolia after becoming Champion.",
+          "Sword and Shield Expansion Pass (Crown Tundra): Given by Peony in the Freeze Inn after the player is given all three Legendary Clues."
+        ]
+      },
+      "Trivia": [
+        "The Master Ball was introduced as a new item in the Super Smash Bros. series in Super Smash Bros. for Nintendo 3DS and Wii U as a second item from the Pokémon series, it almost always opens up rare and Legendary Pokémon, except on rare occasions when the Master Ball will release a Goldeen (which only uses Splash) instead of a Legendary Pokémon. It is a powerful item to use, as the Pokémon obtained can aid the player character.",
+        "This ball completely ignores the capture system that regular Poké Balls follow, as the ball will always capture the Pokémon.",
+        "Pokémon Black 2 and White 2 are the only games where more than one Master Ball can be obtained without using the Lottery or trading Pokémon equipped with one; this is because Professor Juniper awards the player with one in Mistralton City, and a Master Ball can be obtained from defeating Colress (on the Plasma Frigate) after the main story narrative.",
+        "Though production of it is believed to have been discontinued by Silph Co. following Giovanni's and Team Rocket's attempted takeover, given its appearance in other games it is more likely that the company still produces a limited number of Master Balls for use mainly by Pokémon researchers (like Professor Oak and Professor Elm), high-ranking members of the Pokémon League (such as the Elite Four and Champion), those given away as Lottery Prizes, and possibly some for use by Silph employees. It is also possible and likely that due to their capture rate, their production and distribution is monitored and regulated by Pokémon League. Given Cyrus having a Master Ball in his possession, it is likely that a few may have made their way into the hands of criminals, via either theft or purchased on the black market."
+      ]
+    },
+    "price": 4000,
+    "totalRatings": 17,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Mewtwo Ball",
+    "description": "A Mewtwo Ball (also called a Clone Ball) is a type of movie-exclusive item appearing in Pokémon The First Movie - Mewtwo Strikes Back and its remake, Pokémon: Mewtwo Strikes Back—Evolution.",
+    "additionalData": {
+      "Appearance": [
+        "The Mewtwo Ball is primarily black in color and has an eye-shaped object positioned directly in the center of the sphere. There is a grey outline around the eye embedded in the center, which travels around the circumference of the Mewtwo Ball. There are two purple stripes racing down the upper half of the Poké Ball, similar to a great ball."
+      ],
+      "Info": [
+        "The Mewtwo Ball is a type of specialized Poké Ball used by the Pokémon Mewtwo to capture the Pokémon whose trainers were selected to go to New Island. Its main purpose is to allow the captured Pokémon to become cloned for Mewtwo's army in order to fight against the originals. The Mewtwo Ball can also capture Pokémon already stored within ordinary Poké Balls, and are able to pursue Pokémon, as if flying. Once the cloning process is complete, the Mewtwo Balls release the captured Pokémon. Togepi was the only Pokémon not to get captured because Misty put it in her bag."
+      ],
+      "Trivia": [
+        "The name Mewtwo Ball is conjectural, as it was never actually named within the movie."
+      ]
+    },
+    "price": 5000,
+    "totalRatings": 8,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Disappointing Results",
+        "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
+        "rating": 2
+      },
+      {
+        "title": "Quick and Easy",
+        "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
+        "rating": 4.5
+      },
+      {
+        "title": "A Comprehensive Tool for Trainers",
+        "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Miraidon's Poké Ball",
+    "description": "Miraidon's Poké Ball is a key item introduced in Generation IX. It was originally owned and looked after by Arven before giving it to the player.",
+    "additionalData": {
+      "Effects": [
+        "This Poké Ball stores Miraidon in the player's party. The player can use Miraidon only for riding for most of the game, but will be able to use it for battle after the battle against the Paradise Protection Protocol."
+      ]
+    },
+    "price": 2000,
+    "totalRatings": 5,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      },
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Moon Ball",
+    "description": "The Moon Ball used to catch Pokémon that can only evolve through use of the Moon Stone.",
+    "additionalData": {
+      "Appearance": [
+        "It has a blue and black top, with blue on the left side and black on the right meeting in a zig-zag pattern in the middle. On the top of the border of the two sides is a yellow crescent moon."
+      ],
+      "Catch Rate": [
+        "The Moon Ball has the following catch rates:",
+        "x4 for Pokémon that can only evolve through use of the Moon Stone.",
+        "x1 otherwise."
+      ],
+      "Trivia": [
+        "In Generation II, the Moon Ball is incorrectly programmed to have an increased catch rate for Pokémon that evolve via a Burn Heal rather than a Moon Stone. Due to there being no Pokémon that evolved with a Burn Heal, the Moon Ball acts the same as a regular Poké Ball. This is due to the Burn Heal having the same index number (0x0A) in Generation II as the Moon Stone did in Generation I (its index number in Generation II is 0x08 instead) and the code for the Moon Ball mistakenly using the old index number."
+      ]
+    },
+    "price": 2000,
+    "totalRatings": 21,
+    "category": "Environment-Dependent Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Nest Ball",
+    "description": "The Nest Ball is used for catching Pokémon.",
+    "additionalData": {
+      "Appearance": [
+        "It has a green top with yellow or brown bands that wrap from the sides up around the back before ending in a circle at the top to make a woven nest."
+      ],
+      "Catch Rate": [
+        "The Moon Ball has the following catch rates:",
+        "x4 for Pokémon that can only evolve through use of the Moon Stone.",
+        "x1 otherwise."
+      ],
+      "Locations": {
+        "Generation III": ["Ruby, Sapphire and Emerald: in Verdanturf Town."],
+        "Generation IV": [
+          "Diamond, Pearl and Platinum: Eterna City, Hearthome City, Solaceon Town, Great Marsh, Pokémon League (Sinnoh).",
+          "HeartGold & SoulSilver:",
+          "Johto: Safari Zone Gate",
+          "Kanto: Pewter City, Vermilion City"
+        ],
+        "Generation V": [
+          "Black & White: Route 9 (Unova), Castelia City, Driftveil City, Pokémon League (Unova).",
+          "Black 2 & White 2: Route 9, Accumula Town, Castelia City, Driftveil City, Pokémon League, Lentimas Town, Unova Victory Road"
+        ],
+        "Generation VI": [
+          "X & Y: Lumiose City, Cyllage City, Snowbelle City",
+          "Omega Ruby & Alpha Sapphire: Verdanturf Town"
+        ]
+      },
+      "Trivia": [
+        "The catch rate is determined by this formula: rate = 41-x where x is the wild Pokémon's level.",
+        "In Black & White and Black 2 & White 2 games, the formula is altered: rate = (41-x)/10"
+      ]
+    },
+    "price": 2500,
+    "totalRatings": 4,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": []
+  },
+  {
+    "id": "19",
+    "name": "Net Ball",
+    "description": "The Net Ball is a Poké Ball that has a catch rate of 3.5 on Bug- and Water-type Pokémon. It is a useful ball for use against Water-type legendary Pokémon such as Kyogre and Palkia, as they are relatively inexpensive compared to Ultra Balls while possessing a better catch rate.",
+    "additionalData": {
+      "Appearance": [
+        "It has a light blue top with black bands crossing it in a net pattern, often raised above the ball's surface."
+      ],
+      "Trivia": [
+        "The Net Ball will remain a 4x chance against Surskit or Wimpod. Even though it possesses a Water/Bug typing, the catch rate never goes above 4.",
+        "Due to the usefulness in catching both Bug and Water type Pokémon, it is popular among Bug Catchers (and other Bug Pokémon specialists) and Fisherman (and other Water Pokémon specialists)."
+      ]
+    },
+    "price": 1000,
+    "totalRatings": 15,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      },
+      {
+        "title": "Solid Choice",
+        "description": "Good ball, caught Pokémon without any major issues.",
+        "rating": 4
+      },
+      {
+        "title": "Not Worth It",
+        "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
+        "rating": 1.5
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Park Ball",
+    "description": "The Park Ball is a Poké Ball which is only usable within the Pal Park. It can catch a Pokémon sent through to the Pal Park on Route 221 and in Fuchsia City. Much like the Master Ball, the Park Ball never fails to catch a Pokémon. However, its use is entirely restricted to the Pal Park.",
+    "additionalData": {
+      "Appearance": [
+        "The Park Ball has a yellow cover, with a turquoise center and a golden button. Like most Poké Balls, it has a white bottom."
+      ]
+    },
+    "price": 1200,
+    "totalRatings": 12,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "An Unpleasant Surprise",
+        "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Poké Ball",
+    "description": "Standard Poké Balls are the major Poké Ball in the Pokémon saga. This type of Poké Ball is the weakest and the only type that is typically available at the beginning of the Pokémon games. It has a catch rate modifier of ×1 in the catch formula.",
+    "additionalData": {
+      "Appearance": [
+        "The Poké Ball is a sphere. The top of the ball is red, while the bottom is white. There is a black horizontal band circling the ball. The button in its center of its front is either white or light gray."
+      ],
+      "Locations": {
+        "Generation I": [
+          "They appear in the Poké Marts of:",
+          "Viridian",
+          "Pewter",
+          "Cerulean",
+          "Vermillion"
+        ],
+        "Generation II": [
+          "They appear in the Poké Marts of:",
+          "Cherrygrove*",
+          "Violet",
+          "Azalea",
+          "Goldenrod",
+          "Ecruteak",
+          "Mahogany",
+          "Vridian",
+          "Celadon"
+        ],
+        "Generation III": [
+          "They appear in the Poké Marts of:",
+          "Oldale",
+          "Petalburg",
+          "Rustboro",
+          "Slateport",
+          "Mauville",
+          "Lilycove",
+          "Vridian",
+          "Pewter",
+          "Cerulean",
+          "Poké Marts"
+        ],
+        "Generation IV": [
+          "They appear in every Poké Mart. In the Heart Gold and Soul Silver games, they appear in every Poké Mart, (after learning how to catch Pokémon)."
+        ],
+        "Generation V": [
+          "They appear in every Poké Mart,",
+          "Black City shop",
+          "Join Avenue (Antique Shop, souvenir)."
+        ],
+        "Generation VI": [
+          "They appear in every Poké Mart,",
+          "Poké Ball Factory",
+          "Couriway Town",
+          "Route 18",
+          "Santalune Forest",
+          "Route 2",
+          "PokéMileage Club (Mine Cart Adventure)"
+        ],
+        "Generation VII": ["They appear in every Poké Mart."]
+      },
+      "Trivia": [
+        "Many Pokémon have a similar appearance to the Poké Ball, like Voltorb, Electrode, Foongus, Amoonguss and Galarian Stunfisk.",
+        "In Pokémon Scarlet and Pokémon Violet, it is revealed that the current version of the Poké Ball was actually based on the looks of Foongus, due to its creator being extremely obsessed towards said Pokémon.",
+        "It is freely available at the start of most Pokémon games and the player character usually receives five of them at the start of a game.",
+        "Since Pokémon Black Version 2 and Pokémon White Version 2, one gets ten of them instead of five. In Pokémon Sword and Pokémon Shield, the amount of Poké Ball gotten at the beginning is further increased to twenty.",
+        "Prior to Generation VII, it was the only Poké Ball used by other game characters.",
+        "Ash keeps Pikachu's Poké Ball on him at all times.",
+        "While never addressed, it is possible Poké Balls make the Pokémon caught by them obey their Trainers as later in the anime series (as the earlier stories suggest otherwise), even aggressive Pokémon like Paul's Ursaring and Ash's Muk listened to them and seem to instantly become friendly towards their capture.",
+        "This feature, however, is not perfect, as some Pokémon, such as Iris' Dragonite, still maintain a sense of disobedience.",
+        "In the early series of the anime, whenever a Pokémon pops out of the Poké Ball, the background would go dim when the white exits the Poké Ball; the lighting would return to normal once the light turned into the Pokémon. This is likely due to the anime being hand-drawn by that time.",
+        "By Black and White series, the light when Pokémon come out of Poké Ball is changed to a sparkling blue.",
+        "In Diamond and Pearl, this symbolized releasing Pokémon, which Paul is seen doing when Ash meets him.",
+        "The Poké Balls featured in Pokémon: Detective Pikachu work slightly differently: before throwing one to either catch or release a Pokémon, the trainer must first press the center to make the middle black line glow white; additionally, when activated, it makes a powering up, whirring noise.",
+        "The Poké Balls featured in Pokémon Legends: Arceus are mostly made out of wood, feature a toggle latch (like those seen on toolboxes) on the front and a vent on their tops that gives out a puff of steam when Pokémon are caught. These are shown to be one of the earliest concepts of Poké Balls in the games.",
+        "It is implied that they were based on the appearances of Hisuian Voltorb back in Hisui.",
+        "Even though Poké Balls are able to contain strong Pokémon, they are still capable of breaking in different ways. This can be seen by methods such as brute force as seen with Eternatus in the anime, which was able to release itself from a Poké Ball by splitting it in half, and with Gary and Ash breaking one, or by a variety of attacks such as the corrosiveness of Poison attacks."
+      ]
+    },
+    "price": 5000,
+    "totalRatings": 4,
+    "category": "Basic Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Middle of the Road",
+        "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
+        "rating": 3
+      },
+      {
+        "title": "Solid Choice",
+        "description": "Good ball, caught Pokémon without any major issues.",
+        "rating": 4
+      },
+      {
+        "title": "Not Worth It",
+        "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
+        "rating": 1.5
+      },
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Premier Ball",
+    "description": "The Premier Ball is a Poké Ball created for a special event. According to the official Pokémon Colosseum game guide, it has the same catch rate as a regular Poké Ball, but it looks cooler. It lacks any purpose except for giving an extra ball when buying 10 or more Poké Balls. It's basically a free Poké Ball but it has a different design.",
+    "additionalData": {
+      "Appearance": [
+        "It is entirely white except for the band around the middle which is red. The button in the center is also white."
+      ],
+      "Locations": [
+        "It can be obtained by purchasing 10 or more regular Poké Balls from any shop that sells them. (Generation III onward).",
+        "This does not apply to Pokémon FireRed and LeafGreen, which have no legitimate method of obtainment outside of trading with a file of Pokémon Ruby, Sapphire, or Emerald.",
+        "One can be bought for Poké Dollar200 from Lumiose City's Poké Ball Boutique in Generation VI (Kalos).",
+        "One can be obtained from a toddler in the Devon Corporation building in Rustboro City."
+      ]
+    },
+    "price": 5000,
+    "totalRatings": 23,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Middle of the Road",
+        "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Quick Ball",
+    "description": "A Quick Ball is a Poké Ball variant that first appeared in the Generation IV games. While they're somewhat similar to Fast Balls name-wise, they aren't the same.",
+    "additionalData": {
+      "Appearance": [
+        "Appearance wise, Quick Balls are blue with wild yellow stripes and a misshapen triangle formation in the middle. Like every Ball that the player can acquire, Quick Balls appear to be ordinary Poké Balls shape wise, with differentiating decals and unique colors molded on."
+      ],
+      "Locations": {
+        "Generation IV": [
+          "In the Sinnoh region, Quick Balls appear in the Poké Marts of these cities:",
+          "Canalave City",
+          "Snowpoint City",
+          "Pastoria City",
+          "In the Kanto region, Quick Balls appear in the Poké Marts of these cities:",
+          "Fuchsia City",
+          "Vermilion City",
+          "Pewter City",
+          "Cerulean City",
+          "Saffron City"
+        ],
+        "Generation V": [
+          "In both Pokémon Black Version and Pokémon White Version and Pokémon Black Version 2 and Pokémon White Version 2, Quick Balls can be found in Opelucid City's Poké Mart and Shopping Mall Nine."
+        ],
+        "Generation VI": [
+          "In the Kalos region, Quick Balls can be found in Snowbelle City's Poké Mart, Coumarine City's Poké Mart, and the Poké Ball Boutique in Lumiose City's Autumnal Avenue. In the Hoenn region, they can be found in Fallarbor Town's Poké Mart."
+        ],
+        "Generation VII": [
+          "In the Alola region, Quick Balls can be found in Route 8's Poké Mart and the Ball Shop in Festival Plaza."
+        ],
+        "Generation VIII": [
+          "In the Galar region, Quick Balls can be found in Wyndon's Poké Mart."
+        ]
+      },
+      "Usage": [
+        "Quick Balls have a higher chance of capturing a Wild Pokémon when used at the start of a battle. At the beginning of the battle, a Quick Ball's catch rate is x5 (x4 in Generation IV). If used on any turn after the first, its catch rate drops to x1, the same as a normal Poké Ball.",
+        "Same as most other Poké Balls, the Quick Ball always has a 0.1x catch rate on catching Ultra Beasts."
+      ]
+    },
+    "price": 5000,
+    "totalRatings": 10,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      },
+      {
+        "title": "Middle of the Road",
+        "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
+        "rating": 3
+      },
+      {
+        "title": "Solid Choice",
+        "description": "Good ball, caught Pokémon without any major issues.",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "name": "Repeat Ball",
+    "description": "The Repeat Ball is a Poké Ball used for catching Pokémon that have been caught before.",
+    "additionalData": {
+      "Appearance": [
+        "Its distinguishing features consist of a red top similar to a normal Poké Ball, with a gold and continuing series of connected circles starting from the button and ending at the rear of the top half. The open spaces of each circle are colored black."
+      ]
+    },
+    "price": 1200,
+    "totalRatings": 18,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      },
+      {
+        "title": "Not Worth It",
+        "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
+        "rating": 1.5
+      },
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Safari Ball",
+    "description": "The Safari Ball is a special Poké Ball exclusive to and can only be used in Safari Zones. The camouflage design on the outside of the ball is a reference to its former only usable area, the Safari Zone.",
+    "additionalData": {
+      "Appearance": [
+        "The Safari Ball has a camouflage pattern on the top and a normal white bottom."
+      ]
+    },
+    "price": 1000,
+    "totalRatings": 4,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": []
+  },
+  {
+    "id": "26",
+    "name": "Sport Ball",
+    "description": "The Sport Ball is a type of Poké Ball exclusive to National Park's Bug Catching Contest. It is as effective as a standard Poké Ball.",
+    "additionalData": {
+      "Appearance": [
+        "In HeartGold and SoulSilver the ball is redesigned to look like a regular Poké Ball with an additional Eye at the top."
+      ],
+      "Trivia": [
+        "The Sport Ball is similar to the Safari Ball and the Park Ball, as all were used exclusively in their respective parks to capture Pokémon.",
+        "Similar to the Safari Ball, the Sport Ball can be rarely obtained from Cram-o-matic, which is the only way to legitimately obtain it outside of their respective parks.",
+        "In the original Gold/Silver/Crystal games, the ball is called Park Ball and has a dark coloring at the upper half with a lighter coloring on the bottom. If hacked into the inventory in the original games and used, the text for using the ball will be displayed but the menu screen will remain in place as the ball flies towards the Pokémon. The ball will then catch the words and make them garbage tiles. If successful the screen will remain garbled until the player character is returned to the overworld or taken to the nickname screen. If it fails the screen will garble even further and eventually return to normal in a second.",
+        "The Global Link artwork for the Sport Ball is incorrect, as the Poké Ball symbol on top of the ball is replaced with an S."
+      ]
+    },
+    "price": 2500,
+    "totalRatings": 9,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": []
+  },
+  {
+    "id": "27",
+    "name": "Strange Ball",
+    "description": "The Strange Ball is a Poké Ball introduced in Generation VIII. While not available as an item, the ball is the placeholder ball used for a caught Pokémon transferred to Pokémon Brilliant Diamond and Pokémon Shining Pearl and Pokémon Legends: Arceus via Pokémon HOME when the Pokémon's original ball is not available in the game (e.g. a Pokémon with a modern-day Poké Ball transferred to Legends: Arceus). The Pokémon's original Poké Ball, however, will be retained when the Pokémon is returned to HOME. If the player uses the I Choose You! emote before choosing a Starter Pokémon in Cabo Poco, they would be holding the Strange Ball for the duration of the emote.",
+    "additionalData": {},
+    "price": 1500,
+    "totalRatings": 22,
+    "category": "Unique or Event Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Solid Choice",
+        "description": "Good ball, caught Pokémon without any major issues.",
+        "rating": 4
+      },
+      {
+        "title": "Disappointing Results",
+        "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
+        "rating": 2
+      },
+      {
+        "title": "Not Worth It",
+        "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
+        "rating": 1.5
+      },
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Timer Ball",
+    "description": "Timer Ball is a type of Poké Ball used for catching Pokémon. For every ten turns that pass in a battle with a wild Pokémon, the chances of success for capturing the Pokémon increases. Its starting effectiveness is no better than that of a standard Poké Ball.",
+    "additionalData": {
+      "Appearance": [
+        "It has a black, white, and red top with the sides of the top half being black also along with what looks like a cooking timer type handle in orange pointing toward the button. It has a better catch rate the more turns there are before using it."
+      ],
+      "Trivia": [
+        "In Generation III and IV, the catch rate is determined by the formula: rate = (x+10)/10, where x is the number of turns passed.",
+        "In Generation V, the formula has been altered: rate = (y+1229)/4096 where y is the catch rate (x1 is the default)."
+      ]
+    },
+    "price": 2000,
+    "totalRatings": 4,
+    "category": "Specialized Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      },
+      {
+        "title": "Middle of the Road",
+        "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
+        "rating": 3
+      },
+      {
+        "title": "A Comprehensive Tool for Trainers",
+        "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
+        "rating": 4.5
+      },
+      {
+        "title": "Disappointing Results",
+        "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
+        "rating": 2
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "name": "Ultra Ball",
+    "description": "The Ultra Ball is a Poké Ball that has a 2x catch rate modifier, double of that of a standard Poké Ball and 33% more of that of a Great Ball.",
+    "additionalData": {
+      "Appearance": [
+        "This is a black ball with a yellow stripe. It has a black and yellow top, often with the yellow forming an H on the top of the ball. Like most other Balls, it has a white bottom area."
+      ],
+      "Locations": {
+        "Generation I": [
+          "Red and Blue: They are available at Fuchsia City, Cinnabar Island, and the Indigo Plateau's Poké Mart."
+        ],
+        "Generation II": [
+          "Gold and Silver: It is available at Blackthorn City at the Poké Mart and Celadon City."
+        ],
+        "Generation III": [
+          "Ruby, Sapphire, and Emerald: It is available at all Poké Marts after earning 5 gym badges.",
+          "Fire Red and Leaf Green: It is available at all Poké Marts after earning 5 gym badges."
+        ],
+        "Generation IV": [
+          "HeartGold and SoulSilver: It is available at Blackthorn City at the Poké Mart and Celadon City.",
+          "Diamond and Pearl: They are available at all Poké Marts after you've earned 5 gym badges."
+        ],
+        "Generation V": [
+          "Black and White: It is available at all the Poké Marts after earning 5 gym badges.",
+          "Black 2 and White 2: It is available at all the Poké Marts after earning 5 gym badges."
+        ],
+        "Generation VI": [
+          "X and Y: It is available at all the Poké Marts after earning 3 gym badges.",
+          "Omega Ruby and Alpha Sapphire: It is available at all the Poké Marts after earning 3 gym badges",
+          "Pokémon GO: it is unlocked at level 20; it can be obtained at the PokéStop and as level up reward."
+        ],
+        "Generation VII": [
+          "Sun and Moon: They are available at the Royal Avenue Thrifty Megamart",
+          "Ultra Sun and Ultra Moon: They are available at Poké Marts after Mallow's Trial."
+        ]
+      }
+    },
+    "price": 5000,
+    "totalRatings": 13,
+    "category": "Basic Capture Balls",
+    "images": "",
+    "reviews": [
+      {
+        "title": "Disappointing Results",
+        "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
+        "rating": 2
+      },
+      {
+        "title": "Reliable and Effective",
+        "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
+        "rating": 4
+      },
+      {
+        "title": "Mixed Feelings",
+        "description": "Okay, but room for improvement. Some successes, some",
+        "rating": 3.5
+      },
+      {
+        "title": "Decent, But...",
+        "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
+        "rating": 3.5
+      }
+    ]
   }
 ]

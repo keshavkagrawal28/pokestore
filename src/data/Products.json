@@ -20,7 +20,7 @@
     "price": 5000,
     "totalRatings": 9,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "cherish.png",
     "reviews": [
       {
         "title": "Quick and Easy",
@@ -56,7 +56,7 @@
     "price": 3500,
     "totalRatings": 16,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "dive.png",
     "reviews": []
   },
   {
@@ -76,10 +76,10 @@
         ]
       }
     },
-    "price": "",
+    "price": 3000,
     "totalRatings": 7,
     "category": "Unique or Event Balls",
-    "images": 3000,
+    "images": "dream.png",
     "reviews": [
       {
         "title": "Mixed Feelings",
@@ -106,10 +106,10 @@
         "A programming error in Generation II results in the ball only being effective at catching the first three Pokémon in the table for Pokémon that have a 10% chance of fleeing (Magnemite, Tangela, and Grimer), making it practically useless."
       ]
     },
-    "price": "",
+    "price": 2000,
     "totalRatings": 6,
     "category": "Specialized Capture Balls",
-    "images": 2000,
+    "images": "fast.png",
     "reviews": [
       {
         "title": "A Comprehensive Tool for Trainers",
@@ -140,7 +140,7 @@
     "price": 1000,
     "totalRatings": 16,
     "category": "Friendship and Affection Balls",
-    "images": "",
+    "images": "friend.png",
     "reviews": [
       {
         "title": "Solid Choice",
@@ -188,7 +188,7 @@
     "price": 5000,
     "totalRatings": 14,
     "category": "Basic Capture Balls",
-    "images": "",
+    "images": "great.png",
     "reviews": [
       {
         "title": "Solid Choice",
@@ -220,7 +220,7 @@
     "price": 2500,
     "totalRatings": 13,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "gs.png",
     "reviews": [
       {
         "title": "Mixed Feelings",
@@ -256,7 +256,7 @@
     "price": 3500,
     "totalRatings": 20,
     "category": "Weight-Dependent Balls",
-    "images": "",
+    "images": "heavy.png",
     "reviews": [
       {
         "title": "Disappointing Results",
@@ -277,7 +277,7 @@
     "price": 1200,
     "totalRatings": 16,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "koraidon.png",
     "reviews": [
       {
         "title": "Reliable and Effective",
@@ -307,7 +307,7 @@
     "price": 2000,
     "totalRatings": 22,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "Level.png",
     "reviews": [
       {
         "title": "Decent, But...",
@@ -354,7 +354,7 @@
     "price": 5000,
     "totalRatings": 8,
     "category": "Friendship and Affection Balls",
-    "images": "",
+    "images": "love.png",
     "reviews": [
       {
         "title": "A Comprehensive Tool for Trainers",
@@ -388,7 +388,7 @@
     "price": 3500,
     "totalRatings": 17,
     "category": "Environment-Dependent Balls",
-    "images": "",
+    "images": "lure.png",
     "reviews": [
       {
         "title": "Quick and Easy",
@@ -424,7 +424,7 @@
     "price": 2500,
     "totalRatings": 20,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "luxury.png",
     "reviews": [
       {
         "title": "Quick and Easy",
@@ -494,7 +494,7 @@
     "price": 4000,
     "totalRatings": 17,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "master.png",
     "reviews": [
       {
         "title": "Decent, But...",
@@ -521,7 +521,7 @@
     "price": 5000,
     "totalRatings": 8,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "mewtwo.png",
     "reviews": [
       {
         "title": "Disappointing Results",
@@ -552,7 +552,7 @@
     "price": 2000,
     "totalRatings": 5,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "miraidon.png",
     "reviews": [
       {
         "title": "Mixed Feelings",
@@ -586,7 +586,7 @@
     "price": 2000,
     "totalRatings": 21,
     "category": "Environment-Dependent Balls",
-    "images": "",
+    "images": "moon.png",
     "reviews": [
       {
         "title": "Mixed Feelings",
@@ -633,7 +633,7 @@
     "price": 2500,
     "totalRatings": 4,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "nest.png",
     "reviews": []
   },
   {
@@ -652,7 +652,7 @@
     "price": 1000,
     "totalRatings": 15,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "net.png",
     "reviews": [
       {
         "title": "Decent, But...",
@@ -683,7 +683,7 @@
     "price": 1200,
     "totalRatings": 12,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "park.png",
     "reviews": [
       {
         "title": "An Unpleasant Surprise",
@@ -772,7 +772,7 @@
     "price": 5000,
     "totalRatings": 4,
     "category": "Basic Capture Balls",
-    "images": "",
+    "images": "poke.png",
     "reviews": [
       {
         "title": "Middle of the Road",
@@ -814,7 +814,7 @@
     "price": 5000,
     "totalRatings": 23,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "premier.png",
     "reviews": [
       {
         "title": "Middle of the Road",
@@ -865,7 +865,7 @@
     "price": 5000,
     "totalRatings": 10,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "quick.png",
     "reviews": [
       {
         "title": "Decent, But...",
@@ -896,7 +896,7 @@
     "price": 1200,
     "totalRatings": 18,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "repeat.png",
     "reviews": [
       {
         "title": "Decent, But...",
@@ -927,7 +927,7 @@
     "price": 1000,
     "totalRatings": 4,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "safari.png",
     "reviews": []
   },
   {
@@ -948,7 +948,7 @@
     "price": 2500,
     "totalRatings": 9,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "sport.png",
     "reviews": []
   },
   {
@@ -959,7 +959,7 @@
     "price": 1500,
     "totalRatings": 22,
     "category": "Unique or Event Balls",
-    "images": "",
+    "images": "strange.png",
     "reviews": [
       {
         "title": "Solid Choice",
@@ -999,7 +999,7 @@
     "price": 2000,
     "totalRatings": 4,
     "category": "Specialized Capture Balls",
-    "images": "",
+    "images": "timer.png",
     "reviews": [
       {
         "title": "Mixed Feelings",
@@ -1064,7 +1064,7 @@
     "price": 5000,
     "totalRatings": 13,
     "category": "Basic Capture Balls",
-    "images": "",
+    "images": "ultra.png",
     "reviews": [
       {
         "title": "Disappointing Results",

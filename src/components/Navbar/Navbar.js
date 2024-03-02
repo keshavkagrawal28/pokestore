@@ -1,7 +1,7 @@
-import './Navbar.scss';
+import './NavBar.scss';
 
-const Navbar = () => {
+const NavBar = () => {
   return <>Navbar works</>;
 };
 
-export default Navbar;
+export default NavBar;

@@ -31,8 +31,6 @@ const NavBar = ({ renderModal }) => {
           <Link to='/about' className='text-decoration-none bottom-border'>
             About Us
           </Link>
-        </div>
-        <div>
           <Link to='/login' className='text-decoration-none bottom-border'>
             Login
           </Link>
@@ -41,7 +39,7 @@ const NavBar = ({ renderModal }) => {
           </Link>
         </div>
       </div>
-      <div className='navigation-links to-right'>
+      <div className='navigation-links switch-on-hover'>
         <div>
           <span onClick={() => renderModal('search')}>
             <FontAwesomeIcon icon={faMagnifyingGlass} />

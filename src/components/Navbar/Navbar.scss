@@ -60,6 +60,17 @@
     }
 }
 
+.switch-on-hover div {
+    span:hover {
+        background-color:#e97e01 ;
+        color: #1a1a1a;
+    }
+    a:hover {
+        background-color:#e97e01 ;
+        color: #1a1a1a;
+    }
+}
+
 @media only screen and (max-width: 920px) {
     .app-logo {
         margin: auto !important;

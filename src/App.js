@@ -39,6 +39,7 @@ const App = () => {
           }}
         />
       </div>
+      {/* Search modal */}
       {showSearchModal && (
         <Search
           existingSearchText={'hello'} // pass existing search text here
@@ -46,7 +47,9 @@ const App = () => {
           searchProduct={(text) => searchProduct(text)}
         />
       )}
+      {/* Menu modal for mobile screens */}
       {showMenu && <Menubar closeModal={() => setShowMenu(false)} />}
+      {/* APP ROUTES */}
       <div className='app-main-body'>
         <Routes>
           <Route path='/' element={<Home />} />
@@ -55,10 +58,6 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/forgotpass' element={<ForgotPassword />} />
           <Route path='/cart' element={<Cart />} />
-          {/* <Route path='/products' element={<ProductList />}>
-            <Route path=':productId' element={<Product />} />
-            <Route index element={<ProductList />} />
-          </Route> */}
           <Route path='/products' element={<ProductList />} />
           <Route path='/products/:productId' element={<Product />} />
           <Route path='/404' element={<NotFound />} />

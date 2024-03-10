@@ -1,0 +1,29 @@
+.footer-container {
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #e97e01;
+    .footer {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        .socials .social-media-icons {
+            display: flex;
+            div {
+                padding: 10px;
+            }
+        }
+    }
+    .other-navigations {
+        padding-top: 25px;
+        a {
+            color: inherit;
+            padding: 10px;
+        }
+    }
+    .copyright {
+        padding-top: 5px;
+    }
+    .big-logo {
+        color: inherit;
+    }
+}

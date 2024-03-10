@@ -1,0 +1,38 @@
+.search-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1a1a1a;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1500;
+}
+.search-box {
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+    max-width: fit-content;
+    height: calc(100vh - 20rem);
+    align-items: center;
+    .search-form {
+        border-bottom: 2px solid #e97e01;
+    }
+}
+
+input {
+    all: unset;
+}
+
+.search-input{
+    background: none;
+    border: none !important;
+    color: rgba(255, 255, 255, 1)
+}
+
+.search-button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 1)
+}

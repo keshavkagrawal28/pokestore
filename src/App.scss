@@ -1,0 +1,38 @@
+.app-main-body {
+    margin-top: 6rem;
+    min-height: 30rem;
+}
+
+.close-modal-header {
+    height: 6rem;
+    display: flex;
+    z-index: 1500;
+    .close-modal {
+        cursor: pointer;
+        flex-direction: column;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin: auto 20px auto 20px;
+        .close-bar {
+            width: 23px;
+            height: 2px;
+            position: absolute;
+            margin: 4px 0;
+            left: 3px;
+            background-color: #e97e01;
+        }
+        .close-bar-1 {
+            top: 2px;
+            transform: rotate(45deg) translate3d(6px, 5.5px, 0);
+        }
+        .close-bar-2 {
+            top: 10px;
+            visibility: hidden;
+        }
+        .close-bar-3 {
+            top: 18px;
+            transform: rotate(-45deg) translate3d(5.5px, -5px, 0);
+        }
+    }
+}

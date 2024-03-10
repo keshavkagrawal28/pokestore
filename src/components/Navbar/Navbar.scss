@@ -1,0 +1,113 @@
+.navbar-container {
+    background-color: #1a1a1a;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    .app-logo {
+        cursor: pointer;
+        margin: auto auto auto 0;
+        overflow: hidden;
+        img {
+            height: 6rem;
+        }
+    }
+    .navbar-toggle {
+        display: none;
+        flex-direction: column;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        margin: auto 20px auto 20px;
+        .toggle-bar {
+            width: 23px;
+            height: 2px;
+            position: absolute;
+            margin: 4px 0;
+            left: 3px;
+            background-color: #e97e01;
+        }
+        .toggle-bar-1 {
+            top: 2px;
+        }
+        .toggle-bar-2 {
+            top: 10px;
+        }
+        .toggle-bar-3 {
+            top: 18px;
+        }
+    }
+    .navigation-links {
+        font-size: 20px;
+        margin-left: 20px;
+        align-items: center;
+        display: flex;
+        // justify-content: space-between;
+        // flex: 1;
+        color: #e97e01;
+        a {
+            padding: 8px;
+            color: #e97e01;
+            &.bottom-border:hover {
+                border-bottom: 2px solid #e97e01;
+            }
+        }
+        span {
+            padding: 8px;
+            color: #e97e01;  
+            cursor: pointer;  
+        }
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .app-logo {
+        margin: auto !important;
+    }
+    .navbar-toggle {
+        display: flex !important;
+    }
+    .navigation-links.hide-mobile {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-container {
+        height: 5rem !important;
+        .app-logo {
+            img {
+                height: 5rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar-container {
+        height: 4rem !important;
+        .app-logo {
+            img {
+                height: 4rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .navbar-container {
+        height: 3rem !important;
+        .app-logo {
+            img {
+                height: 3rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .app-logo {
+        img {
+            height: 2rem !important;
+        }
+    }
+}

@@ -11,13 +11,43 @@ import ProductList from './pages/ProductList/ProductList';
 import Product from './pages/Product/Product';
 import NotFound from './pages/NotFound/NotFound';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+import { useState } from 'react';
+import Search from './components/Search/Search';
+import Menubar from './components/Menubar/Menubar';
 
 const App = () => {
+  const [showSearchModal, setShowSearchModal] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+
+  const searchProduct = (text) => {
+    setShowSearchModal(false);
+    console.log('Text search: ', text);
+  };
+
   return (
     <>
-      <NavBar />
-      <Container>
+      <div className='fixed-top'>
+        <NavBar
+          renderModal={(modalType) => {
+            if (modalType === 'search') {
+              setShowMenu(false);
+              setShowSearchModal(true);
+            } else if (modalType === 'menu') {
+              setShowSearchModal(false);
+              setShowMenu(true);
+            }
+          }}
+        />
+      </div>
+      {showSearchModal && (
+        <Search
+          existingSearchText={'hello'} // pass existing search text here
+          closeModal={() => setShowSearchModal(false)}
+          searchProduct={(text) => searchProduct(text)}
+        />
+      )}
+      {showMenu && <Menubar closeModal={() => setShowMenu(false)} />}
+      <div className='app-main-body'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login />} />
@@ -34,7 +64,7 @@ const App = () => {
           <Route path='/404' element={<NotFound />} />
           <Route path='*' element={<Navigate to='/404' />} />
         </Routes>
-      </Container>
+      </div>
       <Footer />
     </>
   );

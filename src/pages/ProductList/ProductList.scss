@@ -1,0 +1,18 @@
+.productList-section-title {
+    font-size: 32px;
+    padding: 12px; 
+    text-align: center;
+    font-weight: 800;
+}
+
+.productlist-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.filteredProducts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

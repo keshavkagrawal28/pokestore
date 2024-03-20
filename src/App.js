@@ -10,18 +10,24 @@ import Cart from './pages/Cart/Cart';
 import ProductList from './pages/ProductList/ProductList';
 import Product from './pages/Product/Product';
 import NotFound from './pages/NotFound/NotFound';
-import { Routes, Route, Navigate } from 'react-router-dom';
-import { useState } from 'react';
+import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
+import { useContext, useState } from 'react';
 import Search from './components/Search/Search';
 import Menubar from './components/Menubar/Menubar';
+import { ProductContext } from './context/ProductContext';
 
 const App = () => {
   const [showSearchModal, setShowSearchModal] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
+  const { searchText, setTextToSearch } = useContext(ProductContext);
+
+  const navigate = useNavigate();
+
   const searchProduct = (text) => {
+    setTextToSearch(text);
     setShowSearchModal(false);
-    console.log('Text search: ', text);
+    navigate('/products');
   };
 
   return (
@@ -42,7 +48,7 @@ const App = () => {
       {/* Search modal */}
       {showSearchModal && (
         <Search
-          existingSearchText={'hello'} // pass existing search text here
+          existingSearchText={searchText} // pass existing search text here
           closeModal={() => setShowSearchModal(false)}
           searchProduct={(text) => searchProduct(text)}
         />

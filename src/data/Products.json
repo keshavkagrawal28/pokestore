@@ -25,7 +25,9 @@
       {
         "title": "Quick and Easy",
         "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -84,12 +86,16 @@
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "An Unpleasant Surprise",
         "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -114,17 +120,23 @@
       {
         "title": "A Comprehensive Tool for Trainers",
         "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Reliable and Effective",
         "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -145,12 +157,16 @@
       {
         "title": "Solid Choice",
         "description": "Good ball, caught Pokémon without any major issues.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Reliable and Effective",
         "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -193,17 +209,23 @@
       {
         "title": "Solid Choice",
         "description": "Good ball, caught Pokémon without any major issues.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Middle of the Road",
         "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
-        "rating": 3
+        "rating": 3,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -225,7 +247,9 @@
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -261,7 +285,9 @@
       {
         "title": "Disappointing Results",
         "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -282,12 +308,16 @@
       {
         "title": "Reliable and Effective",
         "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -312,17 +342,23 @@
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "An Unpleasant Surprise",
         "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Reliable and Effective",
         "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -359,12 +395,16 @@
       {
         "title": "A Comprehensive Tool for Trainers",
         "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "An Unpleasant Surprise",
         "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -393,12 +433,16 @@
       {
         "title": "Quick and Easy",
         "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Disappointing Results",
         "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -429,17 +473,23 @@
       {
         "title": "Quick and Easy",
         "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Middle of the Road",
         "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
-        "rating": 3
+        "rating": 3,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Not Worth It",
         "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
-        "rating": 1.5
+        "rating": 1.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -499,7 +549,9 @@
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -526,17 +578,23 @@
       {
         "title": "Disappointing Results",
         "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Quick and Easy",
         "description": "Impressed by the speed! Caught Pokémon swiftly without any fuss. A must-have for trainers looking for efficiency.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "A Comprehensive Tool for Trainers",
         "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -557,12 +615,16 @@
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -591,7 +653,9 @@
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -657,17 +721,23 @@
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Solid Choice",
         "description": "Good ball, caught Pokémon without any major issues.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Not Worth It",
         "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
-        "rating": 1.5
+        "rating": 1.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -688,7 +758,9 @@
       {
         "title": "An Unpleasant Surprise",
         "description": "\"My experience with this ball was far from pleasant. Despite high hopes, it consistently failed to capture Pokémon efficiently. The frustration grew with each unsuccessful attempt, and I ultimately regretted choosing this ball for my journey. I would advise fellow trainers to explore other options for a more reliable catching tool.",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -777,22 +849,30 @@
       {
         "title": "Middle of the Road",
         "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
-        "rating": 3
+        "rating": 3,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Solid Choice",
         "description": "Good ball, caught Pokémon without any major issues.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Not Worth It",
         "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
-        "rating": 1.5
+        "rating": 1.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -819,7 +899,9 @@
       {
         "title": "Middle of the Road",
         "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
-        "rating": 3
+        "rating": 3,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -870,17 +952,23 @@
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Middle of the Road",
         "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
-        "rating": 3
+        "rating": 3,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Solid Choice",
         "description": "Good ball, caught Pokémon without any major issues.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -901,17 +989,23 @@
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Not Worth It",
         "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
-        "rating": 1.5
+        "rating": 1.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -964,22 +1058,30 @@
       {
         "title": "Solid Choice",
         "description": "Good ball, caught Pokémon without any major issues.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Disappointing Results",
         "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Not Worth It",
         "description": "Regrettable purchase. The ball's performance was subpar, and I encountered issues that hindered my Pokémon-catching experience. Save your money.",
-        "rating": 1.5
+        "rating": 1.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -1004,22 +1106,30 @@
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Middle of the Road",
         "description": "Not bad, not outstanding. The ball did the job adequately, but I expected a bit more considering the hype. Average performance overall.",
-        "rating": 3
+        "rating": 3,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "A Comprehensive Tool for Trainers",
         "description": "In my extensive journey as a Pokémon trainer, this ball stood out. Its versatility and unique features make it an essential tool for capturing a wide range of Pokémon. Although not perfect, its overall performance and innovative design make it a valuable asset for trainers striving to become Pokémon Masters.",
-        "rating": 4.5
+        "rating": 4.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Disappointing Results",
         "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   },
@@ -1069,22 +1179,30 @@
       {
         "title": "Disappointing Results",
         "description": "Unfortunately, the ball didn't meet my expectations. Numerous failed attempts and frustration ensued. Would not recommend.\"",
-        "rating": 2
+        "rating": 2,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Reliable and Effective",
         "description": "A trustworthy companion in the field. This ball consistently delivered positive results, capturing Pokémon with ease. Minor improvements could make it perfect.",
-        "rating": 4
+        "rating": 4,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Mixed Feelings",
         "description": "Okay, but room for improvement. Some successes, some",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       },
       {
         "title": "Decent, But...",
         "description": "Performed adequately, but there were some hiccups. It got the job done, but improvements in design and functionality could be beneficial.",
-        "rating": 3.5
+        "rating": 3.5,
+        "writtenBy": "Verified Customer",
+        "date": "01/02/2024"
       }
     ]
   }

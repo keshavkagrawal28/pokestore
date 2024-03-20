@@ -33,6 +33,7 @@ const Search = ({ existingSearchText, closeModal, searchProduct }) => {
               value={textToSearch}
               onChange={handleChange}
               className='search-input'
+              autoFocus
             ></input>
             <button type='submit' value='submit' className='search-button'>
               <FontAwesomeIcon icon={faArrowRight} />

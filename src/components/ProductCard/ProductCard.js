@@ -1,18 +1,23 @@
 // each card on a slider
 import { useContext } from 'react';
 import './ProductCard.scss';
-import cherish from './../../assets/cherish.png';
 import { ProductContext } from '../../context/ProductContext';
 import { useNavigate } from 'react-router-dom';
+import { ImageContext } from '../../context/ImageContext';
 
 const ProductCard = ({ productId }) => {
   const { getProductById } = useContext(ProductContext);
+  const { getImgById } = useContext(ImageContext);
+
   const navigate = useNavigate();
+
   let product = getProductById(productId);
   let productRating = 0;
   product.reviews.forEach((review) => {
     productRating += review.rating / product.reviews.length;
   });
+
+  let imgpath = getImgById(productId);
 
   const navigateTo = (id) => {
     let path = `/products/${id}`;
@@ -40,13 +45,12 @@ const ProductCard = ({ productId }) => {
     return stars;
   };
 
-  for (let i = 0; i <= productRating; i++) {}
   return (
     <div
       className='product-card-container'
       onClick={() => navigateTo(product.id)}
     >
-      <img className='product-image' src={cherish} alt={product.name}></img>
+      <img className='product-image' src={imgpath} alt={product.name}></img>
       <div className='product-info'>
         <div className='product-name'>{product.name}</div>
         <div className='product-price'>

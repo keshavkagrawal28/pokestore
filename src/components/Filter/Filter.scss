@@ -1,0 +1,39 @@
+.filter-container {
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-around;
+    .filter-dropdowns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.filter-dropdown {
+    .dropdown-filter-title {
+        font-weight: 600;
+    }
+    .filter-dropdown-toggle {
+        padding: 20px;
+        border-radius: 0;
+        background-color: inherit;
+        border: 1px solid #c6c6c6;
+        display: inline-block;
+        color: #333;
+        &:hover {
+            background-color: inherit !important;
+            color: #333 !important;
+        }
+        &:active {
+            background-color: inherit !important;
+            color: #333 !important;
+        }
+    }
+    .filter-dropdown-menu {
+        border-radius: 0;
+        .filter-dropdown-item:hover {
+            color: #fff !important;
+            background-color: blue !important;
+        }
+    }
+}

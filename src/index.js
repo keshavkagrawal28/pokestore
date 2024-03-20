@@ -5,6 +5,7 @@ import App from './App';
 import { BrowserRouter } from 'react-router-dom';
 import { AuthenticationContextProvider } from './context/AuthContext';
 import { ProductContextProvider } from './context/ProductContext';
+import { ImageContextProvider } from './context/ImageContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,9 @@ root.render(
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AuthenticationContextProvider>
         <ProductContextProvider>
-          <App />
+          <ImageContextProvider>
+            <App />
+          </ImageContextProvider>
         </ProductContextProvider>
       </AuthenticationContextProvider>
     </BrowserRouter>

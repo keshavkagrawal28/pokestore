@@ -50,14 +50,18 @@ const ProductCard = ({ productId }) => {
       className='product-card-container'
       onClick={() => navigateTo(product.id)}
     >
-      <img className='product-image' src={imgpath} alt={product.name}></img>
-      <div className='product-info'>
-        <div className='product-name'>{product.name}</div>
-        <div className='product-price'>
+      <img
+        className='product-card-image'
+        src={imgpath}
+        alt={product.name}
+      ></img>
+      <div className='product-card-info'>
+        <div className='product-card-name'>{product.name}</div>
+        <div className='product-card-price'>
           ${Number(product.price).toLocaleString()}
         </div>
-        {productRating && (
-          <div className='product-rating'>
+        {productRating > 0 && (
+          <div className='product-card-rating'>
             {generateStars(productRating)}
             <span>{productRating}</span>
           </div>

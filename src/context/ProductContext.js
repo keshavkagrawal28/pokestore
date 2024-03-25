@@ -5,14 +5,11 @@ import { useLocation } from 'react-router-dom';
 export const ProductContext = createContext();
 
 export const ProductContextProvider = ({ children }) => {
-  // const [index, setIndex] = useState(0);
-  // const [limit, setLimit] = useState(10);
-  // const [productFilters, setProductFilters] = useState({});
-  // const [filteredProducts, setFilteredProducts] = useState([]);
   const [searchText, setSearchText] = useState('');
   const [selectedProCategory, setSelectedProCategory] = useState('All');
   const [selectedProSortBy, setSelectedProSortBy] = useState('Title, A-Z');
   const [filteredProducts, setFilteredProducts] = useState([]);
+  const [cart, setCart] = useState([]);
 
   const location = useLocation();
 
@@ -110,6 +107,22 @@ export const ProductContextProvider = ({ children }) => {
     ];
   }, []);
 
+  const addProductToCart = useCallback(
+    (productId) => {
+      if (
+        productId &&
+        !cart.find((cartProduct) => cartProduct.id === productId)
+      ) {
+        setCart([...cart, { id: productId, quantity: 1 }]);
+      }
+    },
+    [cart, setCart]
+  );
+
+  const updateCart = useCallback((cartData) => {
+    setCart(cartData);
+  }, []);
+
   return (
     <ProductContext.Provider
       value={{
@@ -123,6 +136,9 @@ export const ProductContextProvider = ({ children }) => {
         selectedProSortBy,
         setProductSorting,
         filteredProducts,
+        cart,
+        addProductToCart,
+        updateCart,
       }}
     >
       {children}
